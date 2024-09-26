@@ -1,0 +1,266 @@
+#loggo1 {
+   
+    display: none;
+ }  
+ #loggo2 {
+    display: none;
+ }  
+ #loggo3 {
+    display: none;
+ }  
+ #loggo4 {
+    display: none;
+ }  
+ #loggo5 {
+    display: none;
+ }  
+ #loggo6 {
+    display: none;
+ }  
+
+ .mobil2 {
+    display: none;
+}
+
+.loggo-banner {
+    
+    border: solid 1px var(--color-border);
+    background-color: var(--color-card-fill);
+    height: 98.54px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.div2 {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+.div2 h1 {
+    font-size: 27.9px;
+    margin-top: 1rem;
+    font-weight: 800;
+}
+
+.div2 p {
+    text-align: center;
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 400;
+}
+    
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    
+}
+
+.cards h3 {
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.cards p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: var(--color-text);
+    
+    
+}
+
+.ikon1 {
+    border-radius: 8px;
+    width: 60px;
+    height: 60.08px;
+    padding: 16.08px 16px 16px 16px;
+    
+    background: var(--color-btn-secondary);
+    border: none;
+    
+    
+}
+
+.flex2 {
+flex-direction: column;
+}
+
+.flex1 {
+display: flex;
+padding-top: 1.3rem;
+}
+
+
+
+
+
+
+
+
+.card1 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card2 {
+    display: flex;
+   
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+.card3 {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+ }
+.card4 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    }
+.card5 {
+    display: flex;
+ 
+    gap: 1rem;
+    margin-top: 1rem;
+    }
+.card6 {
+    display: flex;
+   
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media (min-width: 768px) {
+    #loggo1 {
+        display: block;
+     }  
+     #loggo2 {
+        display: block;
+     }  
+     #loggo3 {
+        display: block;
+     }  
+     #loggo4 {
+        display: block;
+     }  
+     #loggo5 {
+        display: none;
+     }  
+     #loggo6 {
+        display: none;
+     }  
+
+     .loggo {
+        
+        height: 98.54px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+        
+    
+     .loggos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem; 
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+
+   
+     
+    .loggos button {
+        background: transparent;
+        border: none;
+    }
+    
+   
+   
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-bottom: 6rem;
+    } 
+}
+
+
+
+
+
+@media (min-width: 1400px) {
+    #loggo5 {
+        display: block;
+     }  
+     #loggo6 {
+        display: block;
+     } 
+
+     .loggo {
+        
+        height: 98.54px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+    .loggos {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .mobil2 {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        display: block;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-bottom: 0;
+        gap: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 12rem;
+    }
+    .div2 {
+        display: flex;
+        justify-content: left;
+        align-items: baseline;
+        margin-top: 3rem;
+    }
+
+    .div2 p {
+        text-align: left;
+    }
+
+}

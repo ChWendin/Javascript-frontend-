@@ -1,0 +1,175 @@
+.main2 {
+    width: 100%;
+    background-color:var(--color-secondary-bg);
+   
+}
+
+.main2 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mobil {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 1rem;
+}
+
+.frame {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    z-index: 10;
+}
+
+.screen {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    z-index: 100;
+}
+
+.headline2 {
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.headline3 {
+    margin-left: 1rem;
+   margin-right: 1rem;
+   font-weight: 800;
+}
+
+.headline4 {
+    display: none;
+  }
+  .headline5 {
+    display: none;
+    font-size: 24px;
+  }
+
+.mobil3 {
+    display: none;
+}
+
+.mobil4 {
+    display: none;
+}
+
+.lorem {
+    
+    margin-bottom: 3rem;
+}
+
+.loremtext {
+    color: #585C7B;
+}
+
+.loremtext2 {
+    display: none;
+    color: #585C7B;
+}
+
+
+
+@media (min-width: 768px) {
+    .mobil {
+        display: none;
+    }
+    .mobil3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .mobil4 {
+        display: none;
+    }
+
+    .layer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+        .frame2 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        z-index: 10;
+        }
+        
+        .frame-screen {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            z-index: 100;
+        }
+        .headline2 {
+            font-size: 22px;
+            font-weight:bolder;
+        }
+
+        .headline3 {
+            display: none;
+        }
+    
+  .headline4 {
+    display: block;
+  }
+  .headline5 {
+    display: none;
+  }
+        
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 462px;
+}
+}
+
+
+
+
+
+
+
+@media (min-width: 1400px) {
+    .mobil3 {
+        display: none;
+    }
+
+    .mobil4 {
+        display: flex;
+        gap: 6rem;
+    }
+
+ .headline2 {
+     font-size: 27px;
+    }  
+    
+
+.headline3 {
+    display: none;
+}
+
+.headline4 {
+    display: none;
+}
+.headline5 {
+    display: block;
+}
+.loremtext {
+display: none;
+}
+
+.loremtext2 {
+display: block;
+}
+
+.text-box {
+max-width: 636px;
+}
+}

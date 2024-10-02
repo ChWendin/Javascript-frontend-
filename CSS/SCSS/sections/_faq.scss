@@ -207,6 +207,8 @@
     outline: none;
     background-color: var(--color-white);
     font-family: FontAwesome;
+    color: var(--color-dark);
+    
     
     
 
@@ -381,14 +383,18 @@ margin-bottom: 2rem;
     margin-bottom: 1rem;
 }
 
-
+.form-input {
+    width: 100%;
+}
  
 .sub-form {
     width: 33vh;
     margin-right: 1rem;
     
-
 }
+    
+    
+
    
 .sub-btn {
     padding-left: 22px;

@@ -1246,6 +1246,7 @@ header .container {
   outline: none;
   background-color: var(--color-white);
   font-family: FontAwesome;
+  color: var(--color-dark);
 }
 .form-inputfocus {
   outline: var(--color-primary);
@@ -1379,6 +1380,9 @@ header .container {
   }
   .sub-flex img {
     margin-bottom: 1rem;
+  }
+  .form-input {
+    width: 100%;
   }
   .sub-form {
     width: 33vh;

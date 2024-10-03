@@ -369,7 +369,7 @@ margin-bottom: 2rem;
     align-items: center;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .sub-flex {
@@ -388,7 +388,7 @@ margin-bottom: 2rem;
 }
  
 .sub-form {
-    width: 33vh;
+    min-width: 330px;
     margin-right: 1rem;
     
 }
@@ -474,7 +474,7 @@ margin-bottom: 2rem;
     
     
     .sub-form {
-        width: 42vh;
+        width: 500px;
     }
     .sub-flex {
         width: 100%
@@ -482,6 +482,20 @@ margin-bottom: 2rem;
     
     .sub-btn {
         width: 35%;
-    }   
+    } 
+    
+    
+    .form-input {
+       
+        background-color: var(--color-sub-form-bg);
+        color: var(--color-grey);
+    }
+       
+     
+       
+       
+        
+        
+    
 }
     

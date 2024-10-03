@@ -39,6 +39,7 @@ body {
   --color-headline: #131022;
   --color-btn-store: #131022;
   --color-btn-storetext: #fff;
+  --color-sub-form-bg: #ffffff;
 }
 
 .dark {
@@ -54,6 +55,7 @@ body {
   --color-headline: #fff;
   --color-btn-store: #fff;
   --color-btn-storetext: #131022da;
+  --color-sub-form-bg: #ffffff05;
 }
 
 .container {
@@ -1371,7 +1373,7 @@ header .container {
     align-items: center;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .sub-flex {
     gap: 2rem;
@@ -1385,7 +1387,7 @@ header .container {
     width: 100%;
   }
   .sub-form {
-    width: 33vh;
+    min-width: 330px;
     margin-right: 1rem;
   }
   .sub-btn {
@@ -1453,13 +1455,17 @@ header .container {
     display: block;
   }
   .sub-form {
-    width: 42vh;
+    width: 500px;
   }
   .sub-flex {
     width: 100%;
   }
   .sub-btn {
     width: 35%;
+  }
+  .form-input {
+    background-color: var(--color-sub-form-bg);
+    color: var(--color-grey);
   }
 }
 .footer {

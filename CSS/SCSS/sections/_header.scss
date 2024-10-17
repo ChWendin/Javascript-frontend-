@@ -119,6 +119,7 @@ border-radius: 50%;
     color: var(--color-grey);
     text-decoration: none;
     font-weight: 600;
+    
 }
 
 .main-menu-link:hover {
@@ -151,3 +152,24 @@ header .container {
             gap: 3rem;
         }
     }
+
+    @media (min-width: 1400px) {
+      
+        header .container {
+            grid-template-columns: auto 1fr auto auto;
+            gap: 4rem;
+        }
+        #signin {
+            display: block;
+        }
+        .main-menu {
+            display: flex;
+            gap: 2rem;
+        }
+        .mobile-menu {
+            display: none;
+        }
+        
+        #bild-mobiles {
+        display: none;
+        }}

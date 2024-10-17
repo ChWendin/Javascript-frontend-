@@ -262,15 +262,16 @@ margin: 0;
             grid-template-columns: auto 1fr auto auto;
             gap: 4rem;
         }
-        #signin {
-            display: block;
-        }
-        .main-menu {
-            display: block;
-        }
-        .mobile-menu {
-            display: none;
-        }
+        // #signin {
+        //     display: block;
+        // }
+        // .main-menu {
+        //     display: flex;
+        //     gap: 2rem;
+        // }
+        // .mobile-menu {
+        //     display: none;
+        // }
         
         #bild-mobiles {
         display: none;

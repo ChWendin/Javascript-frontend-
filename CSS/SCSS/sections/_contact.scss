@@ -127,9 +127,17 @@ h4 {
     align-items: center;
 }
 
+.contact-info h4 {
+    font-weight: 800;
+}
+
 .contactinfo-wrapper {
     display: flex;
     align-items: flex-start;
+}
+
+.contact-flex p {
+    font-weight: 700;
 }
 
 .sm-icons {
